@@ -21,7 +21,7 @@ export const Calculator = () => {
     // calculate
     const CalculateHandler = () => {
         try {
-            setResult(Number(eval(result).toString()).toFixed(3));
+            setResult(Number(eval(result).toString()).toFixed(2));
         }
         catch(error)
         {
